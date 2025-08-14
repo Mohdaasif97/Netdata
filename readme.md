@@ -16,28 +16,25 @@ http://localhost:19999
 ## Dashboard Screenshots
 
 ### Metrics
-![images/metrics]()
+![Metrics](images/metrics.png)
 
-### CPU Metrics
-![images/cpu]()
+### CPU Metrics  
+![CPU](images/cpu.png)
 
-### Apps Mterics
-![images/apps]()
-
-### CPU Metrics
-![images/cpu]()
+### Apps Metrics
+![Apps](images/apps.png)
 
 ### Disk Metrics
-![images/disk]()
+![Disk](images/disk.png)
 
 ### Home Dashboard
-![images/home]()
+![Home](images/home.png)
 
 ### System Metrics
-![images/system]()
+![System](images/system.png)
 
 ### Node Overview
-![images/nodes]()
+![Nodes](images/nodes.png)
 
 ## Features Explored
 
