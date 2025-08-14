@@ -5,6 +5,7 @@ I set up Netdata to monitor my system resources using Docker.
 ## Commands Used
 
 ```bash
+
 # Run Netdata container
 docker run -d --name=netdata -p 19999:19999 -v /var/run/docker.sock:/var/run/docker.sock:ro netdata/netdata
 
@@ -14,15 +15,46 @@ http://localhost:19999
 
 ## Dashboard Screenshots
 
-![Apps](Apps.png) ![CPU](cpu.png) ![Disk](disk.png) ![Home](home.png) ![Metrics](metrics.png) ![Nodes](nodes.png) ![System](system.png)
+### Metrics
+![images/metrics]()
 
-The dashboard shows real-time monitoring of:
-- CPU usage
-- Memory consumption  
-- Disk I/O
-- System processes
-- Docker containers
-- Network metrics
+### CPU Metrics
+![images/cpu]()
+
+### Apps Mterics
+![images/apps]()
+
+### CPU Metrics
+![images/cpu]()
+
+### Disk Metrics
+![images/disk]()
+
+### Home Dashboard
+![images/home]()
+
+### System Metrics
+![images/system]()
+
+### Node Overview
+![images/nodes]()
+
+## Features Explored
+
+Real-time Monitoring: Live system metrics updated every second
+Web Interface: Clean, responsive dashboard accessible via browser
+Multiple Views: Different sections for applications, CPU, disk, and system overview
+Docker Integration: Container monitoring with socket access
+Alert System: Built-in notifications for system thresholds
+
+## Key Metrics Monitored
+
+CPU utilization and load average
+Memory usage and swap activity
+Disk I/O operations and space usage
+Network traffic and connections
+Running processes and applications
+Docker container resource consumption
 
 ## What I Monitored
 
